@@ -6,8 +6,8 @@ class Program
     static void Main(string[] args)
     {
         // Datos de conexión de SQL Server
-        string servidor = @"KRNMX-WINING61";  // Nombre del servidor que has mostrado en la imagen
-        string[] basesDeDatos = { "Kranon" }; // Bases de datos a respaldar
+        string servidor = @"";  // Nombre del servidor que has mostrado en la imagen
+        string[] basesDeDatos = { "xxx" }; // Bases de datos a respaldar
 
         // Ruta base donde se guardarán los backups
         string rutaBaseBackup = @"C:\backups\";
